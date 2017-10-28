@@ -8,7 +8,13 @@
     "summary": "SUMMARY.md",
     "glossary": "GLOSSARY.md"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gitbook-plugin-addcssjs": "^1.0.2",
+    "gitbook-plugin-remark-inline": "0.0.25",
+    "gitbook-plugin-richquotes": "0.0.9",
+    "gitbook-plugin-wrapclass": "0.0.3",
+    "lodash": "^4.17.4"
+  },
   "plugins": [
     "wrapclass",
     "addcssjs",

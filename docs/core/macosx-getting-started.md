@@ -1,0 +1,93 @@
+# Setting Up an Apple Mac for Software Development
+
+Adapted from [__source__](http://www.stuartellis.name/articles/mac-setup/#setting-up-a-directory-structure-for-projects)
+## Do This First!
+` `
+## Configuring a User Account
+` `
+### Configuring The Trackpad
+` `
+### Creating a Private Applications Folder
+` `
+### Securing the Safari Browser
+` `
+## Configuring Security
+` `
+### Basic Settings
+` `
+### Enable File Vault NOW
+` `
+### Set a Firmware Password
+` `
+## Setting Up Time Machine Backups
+` `
+## Setting Up for Development
+` `
+### Getting Xcode
+` `
+### Setting Up Homebrew
+` `
+### Installing the Git Version Control System
+` `
+### Choosing a Text Editor
+` `
+### Customizing Your Text Editor
+` `
+### Setting Up A Directory Structure for Projects
+` `
+- I use the directory `~/Developer` as the root of my development-related files. 
+- `~/Developer/Code` => place holder for code snippets, tutorial code, test ideas, etc.
+- `~/Developer/Environments` => virtual environments to keep the dependencies required by different projects in separate places
+- `~/Developer/Infrastructure` => Placeholder for virtual machines and infrastructure as code
+- `~/Developer/Projects` directory to hold in-development projects. This contains a few subdirectories, including -
+  - `Archives` for projects I've abandoned, and 
+  - `Current` for current development work. 
+- `~/Projects` is also a symlink to `~/Developer/Projects/Current`
+
+My code is organised as follows: 
+
+```
+code/
+  dev-thirdparty/ => 3rd party code I've downloaded and want to keep around
+  dev/ => projects that are not in source control (tutorials, tests, experiments, etc.)
+  src/ => my source control checkouts
+    bitbucket.org/
+      my-bitbucket-username/
+        a-project/
+    github.com/
+      my-github-username/
+        another-project/
+```
+
+### Creating SSH Keys
+` `
+
+
+## Setting Up Environments
+` `
+### nvm and Yarn for Node.js Development
+` `
+### Developer Tools for Go
+` `
+### Setting a Custom GOPATH
+` `
+### rustup for Rust Development
+` `
+### RVM for Ruby Development
+` `
+### pyenv for Python Development
+` `
+### A Lightweight Setup for Python 2 Development
+` `
+
+## SQL Databases
+` `
+### Installing PostgreSQL
+` `
+### Installing MariaDB or MySQL
+` `
+
+## Other Useful Desktop Applications for Developers
+` `
+## Online Resources
+` `
