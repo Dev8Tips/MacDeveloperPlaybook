@@ -1,0 +1,15 @@
+
+# Mac/IDE Specific
+*.idea
+.DS_Store
+
+# Node Specific
+build/
+node_modules
+npm-debug.log
+
+# GitBook build output
+_book/
+*.epub
+*.mobi
+*.pdf
